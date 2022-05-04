@@ -7,11 +7,6 @@ type Node struct {
 	next *Node
 }
 
-type List struct {
-	data int
-	head *Node
-}
-
 func main() {
 	//headNode := &Node{data: 1}
 	//headNode.next = &Node{data: 2}
